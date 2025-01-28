@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #FFF;
+        }
+
+        header {
+            background-color: #000;
+            color: #FFD700;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #FFD700;
+            padding: 15px;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            background-color: #FFD700;
+            color: #000;
+            border-radius: 15px;
+        }
+
+        .hero {
+            background-size: cover;
+            background-position: center;
+            color: #FFF;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #FFD700;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .cta-button {
+            background-color: #FFD700;
+            color: #000;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #000;
+            color: #FFD700;
+        }
+
+        .section {
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .grid-item {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            flex: 3;
+            max-width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+
+        .grid-item h4 {
+            font-size: 1.8em;
+            color: #FFD700;
+            margin-bottom: 10px;
+            text-decoration: underline;
+            text-decoration-color: #333;
+        }
+
+        footer {
+            background-color: #000;
+            color: #FFF;
+            padding: 20px;
+            text-align: center;
+			
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+		
+		footer {position: bottom; 
+                bottom: 0; 
+                left: 0; 
+                right: 0
+               }
+
+        img {
+            border-radius: 5%;
+        }
+
+        .popular-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .popular-section h5 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gaming&Co</h1>
+        <p>Le meilleur du gaming à portée de clic</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="recrutement.html">Recrutements</a>
+        <a href="nouveauté.html">Videos</a>
+        <a href="lives.html">Lives</a>
+        <a href="contact.html">Contacts</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Découvrez les Nouveautés de Gaming&Co</h2>
+        <p>Plongez dans l'univers du gaming avec Gaming&Co. Découvrez nos vidéos les plus récentes, des événements exclusifs et plus encore !!!!</p>
+    </section>
+
+    <section class="section">
+        <h3>Nos Nouveautés</h3>
+        <div class="grid">
+            <div class="grid-item">
+                <h4>Fortnite</h4>
+                <a href="https://www.youtube.com/watch?v=NWAXFIyBfxo&list=PLTfMuMXLSLAfw5-JRTKWJ_UjVBgo1cxQi">
+                    <img src="image/fort.jpg" width="200" height="125" alt="Fortnite">
+                </a>
+            </div>
+            <div class="grid-item">
+                <h4>Valorant</h4>
+                <a href="https://www.youtube.com/watch?v=59QRQGmhIKo&list=PLTfMuMXLSLAf-A5AD0r7tSNc9-pDs4iX9">
+                    <img src="image/valo.jpg" width="200" height="125" alt="Valorant">
+                </a>
+            </div>
+            <div class="grid-item">
+                <h4>Enlisted</h4>
+                <a href="https://www.youtube.com/watch?v=bcwTP58e04Q&list=PLTfMuMXLSLAeFjhocZ0WmglDBo6TTnzG6">
+                    <img src="image/endlisted.jpg" width="200" height="125" alt="Enlisted">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-section">
+        <h5>Les plus récentes :</h5>
+        <div>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/dDHGmVpLNFM" title="On passe Or sur le mode Ballistic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/Eqedtx-ThFs" title="On monte en classée sur Fortnite !!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/PTrpiuZl-0U" title="On monte enfin Platine sur le Chapitre 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gaming&Co. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>

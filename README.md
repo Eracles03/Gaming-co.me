@@ -1,1 +1,1 @@
-# Gaming-co.me
+# Gamingandco.github.io
