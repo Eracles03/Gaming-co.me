@@ -146,20 +146,22 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-            text-align: center;
             width: 100%;
             max-width: 600px;
+	    text-align: center;
         }
 
         .contact-container h2 {
             font-size: 2rem;
             margin-bottom: 20px;
+	    text-align: center;
         }
 
         .contact-container p {
             font-size: 1.2rem;
             color: #ddd; /* Gris clair pour le texte descriptif */
             margin-bottom: 20px;
+	    text-align: center;
         }
 
         /* Formulaire */
@@ -287,13 +289,13 @@
             
             <!-- Formulaire de contact -->
             <form action="https://formspree.io/f/xjkvdwpo" method="POST">
-                <label for="name">Votre nom</label>
+                <label for="name"><strong>Votre nom</strong></label>
                 <input type="text" id="name" name="name" placeholder="Votre nom" required>
 
-                <label for="email">Votre email</label>
+                <label for="email"><strong>Votre email</strong></label>
                 <input type="email" id="email" name="email" placeholder="Votre email" required>
 
-                <label for="message">Votre message</label>
+                <label for="message"><strong>Votre message</strong></label>
                 <textarea id="message" name="message" placeholder="Votre message" rows="4" required></textarea>
 
                 <input type="submit" value="Envoyer le message">
